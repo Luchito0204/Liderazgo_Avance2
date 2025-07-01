@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 
 <head>
@@ -14,7 +14,6 @@
       background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
       color: #ffffff;
     }
-
     header {
       background: linear-gradient(90deg, #00c6ff, #0072ff);
       color: white;
@@ -23,7 +22,6 @@
       font-family: 'Orbitron', sans-serif;
       text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     }
-
     nav {
       background-color: #121212;
       padding: 12px;
@@ -33,7 +31,6 @@
       z-index: 100;
       box-shadow: 0 0 12px rgba(0, 255, 255, 0.3);
     }
-
     nav a {
       color: #0ff;
       text-decoration: none;
@@ -41,11 +38,9 @@
       font-weight: bold;
       transition: color 0.3s ease;
     }
-
     nav a:hover {
       color: #fff;
     }
-
     section {
       background: rgba(255, 255, 255, 0.05);
       backdrop-filter: blur(8px);
@@ -56,22 +51,18 @@
       max-width: 1000px;
       box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
     }
-
     h2 {
       color: #0ff;
       font-family: 'Orbitron', sans-serif;
     }
-
     h3 {
       color: #00ffe7;
       margin-top: 20px;
     }
-
     p {
       color: #e0e0e0;
       line-height: 1.6;
     }
-
     .integrante {
       display: flex;
       align-items: center;
@@ -81,7 +72,6 @@
       border-radius: 12px;
       box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.1);
     }
-
     .integrante img {
       width: 100px;
       height: 100px;
@@ -90,25 +80,21 @@
       margin-right: 20px;
       border: 2px solid #0ff;
     }
-
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 20px;
       background-color: rgba(255, 255, 255, 0.03);
     }
-
     th,
     td {
       border: 1px solid #00c6ff;
       padding: 12px;
       color: #fff;
     }
-
     thead {
       background-color: rgba(0, 198, 255, 0.3);
     }
-
     footer {
       background-color: #000;
       color: #0ff;
@@ -118,45 +104,37 @@
       font-family: 'Orbitron', sans-serif;
       letter-spacing: 1px;
     }
-
     #NO\ TOCAR {
       border: 2px dashed red;
       background-color: rgba(255, 0, 0, 0.1);
       color: #ff8080;
     }
-
     /* Agrega transiciones para toggles */
     [id^="subtemas"] {
       transition: all 0.5s ease;
     }
-
     h2[onclick] {
       transition: color 0.3s ease;
     }
-
     h2[onclick]:hover {
       color: #ffffff;
       cursor: pointer;
     }
   </style>
 </head>
-
     <header>
         <h1>Liderazgo y Gestión de Equipos </h1>
     </header>
-
     <section id="inicio">
         <h2>Presentación del Curso</h2>
         <p>El curso de <strong>Liderazgo y Gestión de Equipos</strong> nos enseña a identificar los elementos clave para liderar con efectividad, resolver conflictos, fomentar el trabajo colaborativo y desarrollar habilidades de comunicación dentro de una organización o proyecto.</p>
         <p>Durante este curso, hemos aprendido técnicas esenciales para dirigir equipos, establecer objetivos comunes y desarrollar un entorno de confianza y compromiso.</p>
     </section>
-
     <section id="integrantes">
         <h2>Integrantes</h2>
         <p>Somos un equipo de trabajo de 4 integrantes. Cada uno responde:</p>
         <p><strong>¿Cuál es la importancia del curso de Liderazgo y Gestión de Equipos?</strong></p>
         <p><strong>¿En qué aplicarías lo aprendido?</strong></p>
-
         <div class="integrante">
             <img src="https://media.tenor.com/OXMS-QvUMk0AAAAe/jerry.png" alt="Foto integrante 1">
             <div>
@@ -165,7 +143,6 @@
                 <p>"Link del video respondiendo a las preguntas"</p>
             </div>
         </div>
-
         <div class="integrante">
             <img src="https://media.tenor.com/OXMS-QvUMk0AAAAe/jerry.png" alt="Foto integrante 2">
             <div>
@@ -174,7 +151,6 @@
                 <p>"Link del video respondiendo a las preguntas"</p>
             </div>
         </div>
-
         <div class="integrante">
             <img src="https://media.tenor.com/OXMS-QvUMk0AAAAe/jerry.png" alt="Foto integrante 3">
             <div>
@@ -183,7 +159,6 @@
                 <p>"Link del video respondiendo a las preguntas"</p>
             </div>
         </div>
-
         <div class="integrante">
             <img src="https://media.tenor.com/OXMS-QvUMk0AAAAe/jerry.png" alt="Foto integrante 4">
             <div>
@@ -193,14 +168,11 @@
             </div>
         </div>
     </section>
-
     <section id="unidad1">
         <h2 onclick="toggleSubtema('subtemas1')" style="cursor:pointer;">Unidad 1: El papel del equipo en las organizaciones modernas</h2>
         <div id="subtemas1" style="display: none; margin-left: 20px;">
             <h3>1.1 ¿Qué es ser un liderazgo autentico?</h3>
             <p>Un líder auténtico implica ser genuino, es decir, personificar el verdadero yo y dejar a un lado el ego. Al ser auténtico, el líder recurre siempre a su sistema de valores, principios, moral y creencias para actuar. No oculta sus debilidades, sino que trabaja en mejorarlas; no exagera sus fortalezas, pero sabe obtener el mejor provecho de ellas.</p>
-
-
             <h3>1.2 Diferencia entre jefe y lider</h3>
             <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
                 <thead style="background-color: #dfefff;">
@@ -219,7 +191,6 @@
                             <p>- Dice "Nosotros"</p>
                             <p>- Comparte exitos</p>
                         </td>
-
                     </tr>
                     <tr>
                         <td style="border: 1px solid #ccc; padding: 10px;">Jefe</td>
@@ -231,10 +202,8 @@
                             <p>- Presume los exitos</p>
                         </td>
                     </tr>
-
                 </tbody>
             </table>
-
             <h3>1.3 ¿Cómo ser un lider autentico?</h3>
             <p> Ten una visión: La clave principal para ser un líder es tener un propósito en mente, peor no basta con un simple propósito, necesitas desarrollar una visión clara de lo que quieres alcanzar.</p>
             <p>  Transmite tu pasión: Un verdadero líder se apasiona mucho por lograr esa visión, que inevitablemente contagia a todo su equipo.</p>
@@ -267,7 +236,6 @@
             <p>• Comunicación: Dejan en claro sus objetivos ante los demás y generan confianza.</p>
         </div>
     </section>
-
     <section id="unidad2">
         <h2 onclick="toggleSubtema('subtemas2')" style="cursor:pointer;">Unidad 2: Las Dinamicas de Grupo</h2>
         <div id="subtemas2" style="display: none; margin-left: 20px;">
@@ -289,7 +257,6 @@
             <p>5.	Comunidades: Resolución de conflictos e integración social</p>
         </div>
     </section>
-
     <section id="unidad3">
         <h2 onclick="toggleSubtema('subtemas3')" style="cursor:pointer;">Unidad 3: La Comunicación en el Ambito Empresarial</h2>
         <div id="subtemas3" style="display: none; margin-left: 20px;">
@@ -301,7 +268,6 @@
             <p>Bla Bla Bla Bla </p>
         </div>
     </section>
-
     <section id="NO TOCAR">
     <h2 onclick="toggleSubtema('Subtema4')" style="color: red;">NO TOCAR! PELIGRO </h2>
         <div id="Subtema4" style="display: none; margin-left: 20px;">
@@ -309,11 +275,9 @@
             <img src="https://i.pinimg.com/236x/69/a2/99/69a2994bf4e91a83a0942b9468782d29.jpg" alt="Foto Troll">
         </div>
     </section>
-
     <footer>
         2025 Liderazgo y Gestión de Equipos
     </footer>
-
     <!-- JavaScript para desplegar subtemas -->
     <script>
         function toggleSubtema(id) {
