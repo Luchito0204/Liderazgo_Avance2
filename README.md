@@ -287,7 +287,3 @@
             }
         }
     </script>
-
-</body>
-
-</html>
